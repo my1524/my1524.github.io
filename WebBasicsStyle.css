@@ -20,6 +20,22 @@ body {
 h1:hover {color: forestgreen}*/
 :focus {background-color: white}
 
+.header {
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+    color: #F1C0E6;
+
+}
+
+.header :link {
+        color: #F1C0E6;
+        text-decoration: none;
+    }
+.header :visited {color: #F1C0E6;}
+
+
+
 audio {
     height: 2em;
     filter: hue-rotate(100deg) saturate(50) brightness(75%) opacity(100%);
