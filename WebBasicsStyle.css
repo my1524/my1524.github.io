@@ -3,41 +3,44 @@
 /*colors 
 pink #F1C0E6
 brown #80523E
+unclick, click #CE3666, 
 */
 
 body {
     font-family: sans-serif;
     background-color: #80523E;
     color: #F1C0E6;
+    padding-bottom: 50px;
 }
 
-:link {color: blue}
-:visited {color: red}/*
+:link {color: #CE3666}
+:visited {color: #4C113F}/*
 h1:hover {color: forestgreen}*/
-:focus {background-color: orange}
+:focus {background-color: white}
 
 audio {
     height: 2em;
     filter: hue-rotate(100deg) saturate(50) brightness(75%) opacity(100%);
 }
+/* not sure what I wanted to do here
 td {
     background-color
 }
+*/
 
 
 #NYU { 
     color: #57068C; 
     font-family: sans-serif; /*research if I can legally add NYU Perstare*/
-    :link {color: #57068C} 
-    :visited {color: red}
+  /*  :link {color: #57068C} */
     :hover {color: #57068C}
 } 
 
 #Pratt {
     color: #FFC819; /*options #FFC819, #F9BE28*/
     font-family: sans-serif;
-    :hover {
-        color:#FFC819;
+   /* :link {color: #FFC819}*/
+    :hover {color: #FFC819;
     }
 } 
 
@@ -50,7 +53,7 @@ footer {
     background-color: #F1C0E6;
     margin: 10px;
     padding: 10px 50px;
-    border: 10px;
+    border: 0px;
     border-style: solid;
     border-color;
     position: fixed;
@@ -59,11 +62,17 @@ footer {
    
 }
 ol {
-    text-align: justify-all;
+    padding-bottom: 1em;
 }
 
 .header {
     font-family: cursive;
+    font-size: 40px;
     text-align: center;
     color: #F1C0E6;
+    :link {
+        color: #F1C0E6;
+        text-decoration: none;
+    }
+    :visited color: #F1C0E6;
 }
