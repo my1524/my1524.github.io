@@ -5,9 +5,10 @@ pink #F1C0E6
 brown #80523E
 unclick, click #CE3666, 
 */
+/* box test
 * {
     border: 1px solid black;
-}
+} */
 body {
     font-family: sans-serif;
     background-color: #80523E;
@@ -22,23 +23,48 @@ h1:hover {color: forestgreen}*/
 
 .header {
     font-family: cursive;
-    font-size: 40px;
     text-align: center;
     color: #F1C0E6;
+    background-color: #80523E;
+    width: 10em;
+    height: 80px;
+    margin: auto;
+}
+.header p {
+    color: #F1C0E6;
+    font-size: 40px; 
 
 }
+
+.header a{
+}
+
 
 .header :link {
         color: #F1C0E6;
         text-decoration: none;
     }
+.header :focus {
+    color: #F1C0E6;
+    background-color: #80523E;
+}
 .header :visited {color: #F1C0E6;}
+.header :hover {
+    color: #80523E;
+    background-color: #F1C0E6;
+}
 
 
 
 audio {
     height: 2em;
-    filter: hue-rotate(100deg) saturate(50) brightness(75%) opacity(100%);
+    filter: hue-rotate(120deg) saturate(50) brightness(75%) opacity(100%); 
+    border-radius: 60%;
+    
+}
+
+video {
+    border-radius: 5%;
 }
 /* not sure what I wanted to do here
 td {
