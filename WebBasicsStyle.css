@@ -9,8 +9,10 @@ unclick, click #CE3666,
 * {
     border: 1px solid black;
 } */
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 body {
-    font-family: sans-serif;
+    font-family: 'ubuntu', sans-serif;
     background-color: #80523E;
     color: #F1C0E6;
     padding-bottom: 50px;
@@ -20,6 +22,7 @@ body {
 :visited {color: #4C113F}/*
 h1:hover {color: forestgreen}*/
 :focus {background-color: white}
+
 
 .header {
     font-family: cursive;
@@ -60,24 +63,7 @@ ol {
     padding-bottom: 1em;
 }
 
-footer {
-    font-family: cursive;
-    font-size: .5em;
-    color: #80523E;
-    background-color: #F1C0E6;
-    margin: 10px;
-    padding: 10px 50px;
-    border: 0px;
-    border-style: solid;
-    border-color; 
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    text-align: left;
-    :link{
-        text-decoration: none;
-    }
-}
+
 /*I am sure there's a way to make it so that I can set the :visited pseudoclass to have the color = the :link color but I couldn't figure out how so each home button has a different class. Or there isn't a way and using an image would be better*/
 
 .NYUHome {
@@ -132,7 +118,7 @@ td {
 
 #NYU { 
     color: #57068C; 
-    font-family: sans-serif; /*research if I can legally add NYU Perstare*/
+    /*font-family: sans-serif; research if I can legally add NYU Perstare (and want to)*/
   /*  :link {color: #57068C} */
     :hover {
         color: #57068C;
@@ -141,21 +127,46 @@ td {
 
 #Pratt {
     color: #FFC819; /*options #FFC819, #F9BE28*/
-    font-family: sans-serif;
+    /* font-family: sans-serif;  research Pratt's font*/
    /* :link {color: #FFC819}*/
     :hover {color: #FFC819;
+    }
+    :focus {
+        color: black;
     }
 
 } 
 
 
 .navbar {
-   /* position: fixed;
-    bottom: 0; */
+    color: #F1C0E6;
+    margin: 10px;
+    padding: 0px;
+    border: 0px;
+    border-style: solid;
+    border-color; 
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+    text-align: center;
     
 }
 
-
-
-
-
+footer {
+    font-family: cursive;
+    font-size: .5em;
+    color: #80523E;
+    background-color: #F1C0E6;
+    margin: 10px;
+    padding: 10px 50px;
+    border: 0px;
+   /* border-style: solid;
+    border-color; */
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align: left;
+    :link{
+        text-decoration: none;
+    }
+}
