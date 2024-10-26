@@ -64,7 +64,35 @@ ol {
 }
 
 
+.aboutme {
+    padding: 0px;
+    width: 300px;
+    float: right;
+    
+}
+
+.directory {
+    margin-top: 3em;
+}
+
 /*I am sure there's a way to make it so that I can set the :visited pseudoclass to have the color = the :link color but I couldn't figure out how so each home button has a different class. Or there isn't a way and using an image would be better*/
+
+.SiteHome{
+    text-decoration: none;
+    color: #CE3666;
+    
+}
+
+.SiteHome :link {
+    text-decoration: none;
+    color: #CE3666;
+}
+
+.SiteHome :visited {
+    text-decoration: none;
+    color: #CE3666;
+}
+
 
 .NYUHome {
     text-decoration: none;
