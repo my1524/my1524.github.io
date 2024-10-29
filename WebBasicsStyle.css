@@ -101,6 +101,7 @@ ol {
 
 .NYUHome :link {
     text-decoration: none;
+    color: #57068C; 
 }
 
 .NYUHome :visited {
@@ -149,7 +150,7 @@ td {
 
 
 #NYU { 
-    color: #57068C; 
+    color: #57068C;  
     /*font-family: sans-serif; research if I can legally add NYU Perstare (and want to)*/
   /*  :link {color: #57068C} */
     
